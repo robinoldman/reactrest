@@ -6,3 +6,4 @@ urlpatterns = [
     path('profiles/<int:pk>/', views.ProfileDetail.as_view()),
 
 ]
+
