@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-6wb#ip0z2!i%o*pqxqwu4wmwrn)l_y!dnzo_k=#f*@%ttv2e!o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-robinoldman-reactrest-7xfdaq0s9qu.ws-eu102.gitpod.io']
+ALLOWED_HOSTS = ['8000-robinoldman-reactrest-lkicsh8dbud.ws-eu102.gitpod.io']
 
 
 # Application definition
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'cloudinary',
     'rest_framework',
     'posts',
+    
 
     'profiles',
 ]
