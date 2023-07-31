@@ -1,5 +1,5 @@
 from rest_framework import serializers 
-from like.models import Like or from .models import Like 
+from likes.models import Likes 
 
 class LikesSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
@@ -10,7 +10,7 @@ class LikesSerializer(serializers.ModelSerializer):
         return request.user == obj.owner
 
     class Meta:
-        model = Post
+        model = Likes
         fields = [
             'id', 'created_at', 'owner', 'post'
         ]
